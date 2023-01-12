@@ -1,0 +1,17 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "emmet.includeLanguages": {
+    "javascriptreact": "xml",
+    "typescriptreact": "xml"
+  },
+  "files.exclude": {
+    "node_modules": true,
+    "pnpm-lock.yaml": true
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  }
+}
