@@ -1,34 +1,32 @@
-## Usage
+# Zehrimar 
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+![Pronounced: zæhrimɑr](https://img.shields.io/badge/Pronounced-zæhrimɑr-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-orange) 
+![PRs: Welcome](https://img.shields.io/badge/PRs-welcome-orange)
+![Languages: 2](https://img.shields.io/badge/Languages-2-orange)
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+[Zehrimar](https://zehrimar.vercel.app) is the next generation playground
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
 
-## Available Scripts
+* Productive, minimal and lightweight
+* Safe and isolated environment
+* JavaScript/TypeScript support
+* Smart and Rich IntelliSense
+* Refactoring, Debugging
+* Light/Dark themes
+* Offline support
 
-In the project directory, you can run:
 
-### `npm dev` or `npm start`
+### Keyboard Shortcuts
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Shortcut | Action | Description |
+| :- | :- | :- |
+| Ctrl + Enter | Run | Executes code |
+| Ctrl + \\ | Kill | Stops code execution (useful when infinite loop, too many logs, errors, or ect.) |
+| Ctrl + S | Save | Saves code to url (most of time done automatically) |
 
-The page will reload if you make edits.<br>
 
-### `npm run build`
+### Browser Support
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+Runs on almost all modern browsers
