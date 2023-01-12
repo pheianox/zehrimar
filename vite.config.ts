@@ -5,9 +5,16 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig({
   plugins: [
     solidPlugin(),
-    VitePWA({ 
+    VitePWA({
       registerType: 'autoUpdate',
-      // workbox: { globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'] }
+      injectRegister: 'auto',
+      workbox: {
+        maximumFileSizeToCacheInBytes: 10000000,
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,json,txt}']
+      },
+      devOptions: {
+        enabled: true,
+      }
     })
   ],
   server: {
