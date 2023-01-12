@@ -193,8 +193,8 @@ function initRuntime() {
 }
 
 function startRuntime(code: string) {
-  stopRuntime()
-  initRuntime()
+  // stopRuntime()
+  // initRuntime()
   if (config.scriptLanguage === ScriptLanguage.TypeScript) {
     code = TypeScript.transpile(code)
   }
