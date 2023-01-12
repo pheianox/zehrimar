@@ -120,6 +120,7 @@ function resetOutput() {
 
 
 
+
 /* @ts-ignore */
 const setConfig: SetStoreFunction<Config> = (...args) => {
   // @ts-ignore
@@ -149,6 +150,37 @@ function checkConfig(object: object) {
     return false
   }
   return true
+}
+
+
+
+function init() {
+  changeInterfaceTheme(config.isDarkMode)
+  initSplitter()
+  initEditor()
+  initRuntime()
+  document.addEventListener('keydown', handleKeyboard)
+  window.addEventListener('beforeunload', save)
+}
+
+function run() {
+  if (config.isConsoleAutoClean) {
+    resetOutput()
+  }
+  const code = save()
+  startRuntime(code)
+}
+
+function kill() {
+  stopRuntime()
+}
+
+function save() {
+  const code = getEditorCode()
+  setCodeToUrl(code)
+  savedCodeCopy = code
+  setCodeSaved(true)
+  return code
 }
 
 
@@ -354,35 +386,6 @@ function changeScriptLanguage(language: ScriptLanguage) {
 
 function initSplitter() {
   SplitJS([leftPaneElement, rightPaneElement], splitDefaultConfig)
-}
-
-
-function init() {
-  changeInterfaceTheme(config.isDarkMode)
-  initSplitter()
-  initEditor()
-  document.addEventListener('keydown', handleKeyboard)
-  window.addEventListener('beforeunload', save)
-}
-
-function run() {
-  if (config.isConsoleAutoClean) {
-    resetOutput()
-  }
-  const code = save()
-  startRuntime(code)
-}
-
-function kill() {
-  stopRuntime()
-}
-
-function save() {
-  const code = getEditorCode()
-  setCodeToUrl(code)
-  savedCodeCopy = code
-  setCodeSaved(true)
-  return code
 }
 
 
