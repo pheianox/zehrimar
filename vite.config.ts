@@ -10,7 +10,7 @@ export default defineConfig({
       injectRegister: 'auto',
       workbox: {
         maximumFileSizeToCacheInBytes: 10000000,
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,json,txt}']
+        globPatterns: ['**/*.*']
       },
       devOptions: {
         enabled: true,
