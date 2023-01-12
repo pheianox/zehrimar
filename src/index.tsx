@@ -173,6 +173,7 @@ function run() {
 
 function kill() {
   stopRuntime()
+  initRuntime()
 }
 
 function save() {
@@ -189,16 +190,14 @@ function initRuntime() {
   runtime = new Worker(RUNTIME_PATH, { type: 'module' })
   runtime.addEventListener('message', onRuntimeMessage)
   runtime.addEventListener('error', onRuntimeError)
-  setRuntimeStopped(false)
 }
 
 function startRuntime(code: string) {
-  // stopRuntime()
-  // initRuntime()
   if (config.scriptLanguage === ScriptLanguage.TypeScript) {
     code = TypeScript.transpile(code)
   }
   runtime.postMessage({ code })
+  setRuntimeStopped(false)
 }
 
 function stopRuntime() {
