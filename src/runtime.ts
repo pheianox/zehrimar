@@ -1,13 +1,4 @@
 // @ts-ignore
-console.log = customLogger
-console.debug = customLogger
-console.dir = customLogger
-console.table = customLogger
-console.info = customLogger
-console.warn = customLogger
-console.error = customLogger
-console.clear = () => null
-
 console = {
   debug: customLogger,
   dir: customLogger,
