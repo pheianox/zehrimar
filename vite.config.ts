@@ -7,7 +7,7 @@ export default defineConfig({
     solidPlugin(),
     VitePWA({ 
       registerType: 'autoUpdate',
-      workbox: { globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'] }
+      // workbox: { globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'] }
     })
   ],
   server: {
