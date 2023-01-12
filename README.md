@@ -1,9 +1,9 @@
 # Zehrimar 
 
-![Pronounced: zæhrimɑr](https://img.shields.io/badge/Pronounced-zæhrimɑr-orange)
-![License: MIT](https://img.shields.io/badge/License-MIT-orange) 
-![PRs: Welcome](https://img.shields.io/badge/PRs-welcome-orange)
-![Languages: 2](https://img.shields.io/badge/Languages-2-orange)
+![x](https://img.shields.io/badge/pronounced-zæhrimɑr-orange)
+![x](https://img.shields.io/github/package-json/v/pheianox/zehrimar)
+![x](https://img.shields.io/badge/license-mit-orange) 
+![x](https://img.shields.io/badge/prs-welcome-orange)
 
 
 [Zehrimar](https://zehrimar.vercel.app) is the next generation playground
