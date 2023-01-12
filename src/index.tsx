@@ -1,5 +1,5 @@
 /* @refresh reload */
-import RUNTIME_PATH from './runtime?url'
+import RUNTIME_PATH from './runtime?worker&url'
 
 import { Component, createSignal, For, onMount, Setter } from "solid-js"
 import { TbAlertOctagon, TbClearAll, TbMaximize, TbMoon, TbSun } from 'solid-icons/tb'
