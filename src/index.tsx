@@ -15,6 +15,7 @@ import FileSaver from 'file-saver'
 import SplitJS from 'split.js'
 
 import './index.css';
+import { Base64 } from 'js-base64';
 
 enum ScriptLanguage {
   TypeScript = "typescript",
@@ -322,11 +323,11 @@ function changeInterfaceTheme(isDark: boolean) {
 }
 
 function getCodeFromUrl() {
-  return atob(location.hash.slice(1))
+  return Base64.decode(location.hash.slice(1))
 }
 
 function setCodeToUrl(code: string) {
-  window.location.hash = btoa(code)
+  window.location.hash = Base64.encode(code)
 }
 
 function handleKeyboard(event: KeyboardEvent) {

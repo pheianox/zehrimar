@@ -2,9 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/file-saver': ^2.0.5
+  '@types/js-base64': ^3.3.1
   autoprefixer: ^10.4.13
   daisyui: ^2.46.1
   file-saver: ^2.0.5
+  js-base64: ^3.7.4
   monaco-editor: ^0.34.1
   postcss: ^8.4.21
   solid-icons: ^1.0.4
@@ -19,6 +21,7 @@ specifiers:
 
 dependencies:
   file-saver: 2.0.5
+  js-base64: 3.7.4
   monaco-editor: 0.34.1
   solid-icons: 1.0.4_solid-js@1.6.8
   solid-js: 1.6.8
@@ -26,6 +29,7 @@ dependencies:
 
 devDependencies:
   '@types/file-saver': 2.0.5
+  '@types/js-base64': 3.3.1
   autoprefixer: 10.4.13_postcss@8.4.21
   daisyui: 2.46.1_gbtt6ss3tbiz4yjtvdr6fbrj44
   postcss: 8.4.21
@@ -1622,6 +1626,13 @@ packages:
     resolution: {integrity: sha512-zv9kNf3keYegP5oThGLaPk8E081DFDuwfqjtiTzm6PoxChdJ1raSuADf2YGCVIyrSynLrgc8JWv296s7Q7pQSQ==}
     dev: true
 
+  /@types/js-base64/3.3.1:
+    resolution: {integrity: sha512-Zw33oQNAvDdAN9b0IE5stH0y2MylYvtU7VVTKEJPxhyM2q57CVaNJhtJW258ah24NRtaiA23tptUmVn3dmTKpw==}
+    deprecated: This is a stub types definition. js-base64 provides its own type definitions, so you do not need this installed.
+    dependencies:
+      js-base64: 3.7.4
+    dev: true
+
   /@types/node/18.11.18:
     resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
     dev: true
@@ -2553,6 +2564,9 @@ packages:
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
+
+  /js-base64/3.7.4:
+    resolution: {integrity: sha512-wpM/wi20Tl+3ifTyi0RdDckS4YTD4Lf953mBRrpG8547T7hInHNPEj8+ck4gB8VDcGyeAWFK++Wb/fU1BeavKQ==}
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
