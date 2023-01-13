@@ -1,34 +1,27 @@
-## Usage
+# Zehrimar
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+![x](https://img.shields.io/badge/pronounced-zæhrimɑr-orange)
+![x](https://img.shields.io/github/package-json/v/pheianox/zehrimar)
+![x](https://img.shields.io/badge/license-mit-orange)
+![x](https://img.shields.io/badge/prs-welcome-orange)
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+[Zehrimar](https://zehrimar.vercel.app/) is a next generation JavaScript playground
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+Productive, lightweight and modern
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+Features
+- Safe and isolated environment
+- TypeScript first support
+- Powerful InteliSense
+- Refactoring, Debugging
+- Share via link option
+- Controlled execution
+- Quick cached bootup
+- Dark/Light themes
+- Offline support
 
-## Available Scripts
+### Browser Support
 
-In the project directory, you can run:
+Runs on almost all modern browsers
 
-### `npm dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+Google Chrome is recommended
