@@ -5,13 +5,13 @@
 ![x](https://img.shields.io/badge/license-mit-orange)
 ![x](https://img.shields.io/badge/prs-welcome-orange)
 
-[Zehrimar](https://zehrimar.vercel.app/) is a next generation JavaScript playground
+[Zehrimar](https://zehrimar.vercel.app/) is a next generation TS/JS playground
 
 Productive, lightweight and modern
 
 Features
 - Safe and isolated environment
-- TypeScript first support
+- TypeScript/JavaScript first support
 - Powerful InteliSense
 - Refactoring, Debugging
 - Share via link option
