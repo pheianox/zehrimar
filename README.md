@@ -25,3 +25,7 @@ Features
 Runs on almost all modern browsers
 
 Google Chrome is recommended
+
+### Contributions
+
+PRs are welcome
